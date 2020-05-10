@@ -11,7 +11,11 @@
 ** that responds with a realistic velocity bounce-off. This literally just 
 ** stops/moves back the AA Rectangle to a point so that it doesn't collide
 
-** Good luck, have fun!
+** Also, this doesn't work out of the box - rather a snippet of a system.
+** So if you're working on some project that requires this, the logic is there,
+** but you do need to adapt it to your project structure.
+
+** Good luck, have fun! :)
 */
 
 public static bool ShapeOverlap_AABB(BoxCollider r1, BoxCollider r2)
